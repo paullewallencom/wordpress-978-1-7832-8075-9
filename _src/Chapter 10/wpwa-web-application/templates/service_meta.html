@@ -1,0 +1,30 @@
+<input type="hidden" name="service_meta_nonce" value="{{ service_meta_nonce }}" />
+
+<table class="form-table">
+<tr>
+        <th style=''><label for='Service availability'>Service availability *</label></th>
+        <td>
+            <select class='widefat' name="service_availability" id="service_availability">
+                <option {% if service_availability == 0 %}selected{% endif %} value="0">Select</option>
+                <option {% if service_availability == 'av' %}selected{% endif %} value="av">Available</option>
+                <option {% if service_availability == 'nav' %}selected{% endif %} value="nav">Not available</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <th style=''><label for='Service Price Type'>Service Prize Type </label></th>
+        <td>
+            <select class='widefat' name="service_price_type" id="service_price_type">
+                <option {% if service_price_type == 0 %}selected{% endif %} value="0">Select</option>
+                <option {% if service_price_type == 'hourly' %}selected{% endif %} value="hourly">Hourly</option>
+                <option {% if service_price_type == 'fixed' %}selected{% endif %} value="fixed">Fixed</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <th style=''><label for='Price'>Price </label></th>
+        <td><input class='widefat' name='service_price_value' id='service_price_value' type='text' value='{{ service_price_value }}' /></td>
+    </tr>
+    
+    
+</table>

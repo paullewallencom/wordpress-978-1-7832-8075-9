@@ -1,0 +1,52 @@
+#custom_panel{
+    padding: 2%;
+    background: #FFF;
+    min-height: 200px;
+}
+#custom_panel ul{
+    margin: 0;
+    padding: 0;
+}
+#custom_panel li{
+    list-style: none;
+    width: 100%;
+}
+
+#custom_panel .frm_label{
+    width: 30%;
+    float: left;
+}
+
+#custom_panel .frm_field{
+    background: none repeat scroll 0 0 #F8F8F8;
+    height: 30px;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 60%;
+}
+
+#custom_panel .frm_error{
+    background: none repeat scroll 0 0 #F28080;
+    color: #FFFFFF;
+    font-family: helvetica;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px 2%;
+    width: 86%;
+}
+
+#info_message{
+    padding: 3%;
+    font-weight: bold;
+    background: #E6E6FE;
+}
+
+.frm_success{
+    background: #A5D286;
+    color: #FFF;
+    font-family: helvetica;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px 2%;
+    width: 86%;
+}

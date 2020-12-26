@@ -1,0 +1,24 @@
+.answer_controls{
+    background: none repeat scroll 0 0 #237BD9;
+    float: left;
+    margin: 10px 10px 10px 0;
+    max-width: 150px;
+    padding: 5px;
+    color: #fff;
+}
+
+.answer_controls a{
+    color: #fff !important;
+}
+
+.type-wp_questions{
+    padding: 5px;
+    background: #eee;
+    border: 1px solid #cfcfcf !important;
+    margin-bottom: 10px !important;
+}
+
+.tick img{
+    width: 50px;
+    height: 50px;
+}
